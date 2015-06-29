@@ -1,0 +1,30 @@
+elasticsearch:
+  build: elastic
+  ports:
+   - "9200:9200"
+   - "9300:9300"
+kibana:
+  build: kibana
+  ports:
+   - "80:80"
+   - "5601:5601"
+  links:
+   - elasticsearch
+logstash:
+  build: logstash
+  ports:
+   - "5000:5000"
+  links:
+   - elasticsearch
+  volumes:
+   - logs:/logs
+dw:
+  build: dw
+  ports:
+   - "8080:8080"
+   - "8000:8000"
+   - "8443:8443"
+  volumes:
+   - src:/src
+  links:
+   - logstash

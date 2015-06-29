@@ -1,0 +1,167 @@
+INFO   [02:10:05.484] [main] o.e.j.u.log -  Logging initialized @1386ms 
+INFO   [02:10:05.562] [main] i.d.a.AssetsBundle -  Registering AssetBundle with name: assets for path /assets/* 
+INFO   [02:10:05.675] [main] o.h.a.c.Version -  HCANN000001: Hibernate Commons Annotations {4.0.4.Final} 
+INFO   [02:10:05.679] [main] o.h.Version -  HHH000412: Hibernate Core {4.3.5.Final} 
+INFO   [02:10:05.680] [main] o.h.c.Environment -  HHH000206: hibernate.properties not found 
+INFO   [02:10:05.682] [main] o.h.c.Environment -  HHH000021: Bytecode provider name : javassist 
+INFO   [02:10:05.701] [main] i.d.h.SessionFactoryFactory -  Entity classes: [org.pachnanda.calculator.core.CalculationResult] 
+INFO   [02:10:06.057] [main] o.h.d.Dialect -  HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+INFO   [02:10:06.170] [main] o.h.e.t.i.TransactionFactoryInitiator -  HHH000399: Using default transaction strategy (direct JDBC transactions) 
+INFO   [02:10:06.174] [main] o.h.h.i.a.ASTQueryTranslatorFactory -  HHH000397: Using ASTQueryTranslatorFactory 
+INFO   [02:10:06.252] [main] o.h.t.BasicTypeRegistry -  HHH000270: Type registration [java.util.Currency] overrides previous : org.hibernate.type.CurrencyType@dc7b462 
+INFO   [02:10:06.675] [main] i.d.s.ServerFactory -  Starting calculator
+                           web-scale hello world dP for the web
+                                                 88
+  .d8888b. dP.  .dP .d8888b. 88d8b.d8b. 88d888b. 88 .d8888b.
+  88ooood8  `8bd8'  88'  `88 88'`88'`88 88'  `88 88 88ooood8
+  88.  ...  .d88b.  88.  .88 88  88  88 88.  .88 88 88.  ...
+  `88888P' dP'  `dP `88888P8 dP  dP  dP 88Y888P' dP `88888P'
+                                        88
+                                        dP
+ 
+INFO   [02:10:06.943] [main] i.d.j.HttpsConnectorFactory -  Supported protocols: [SSLv2Hello, SSLv3, TLSv1, TLSv1.1, TLSv1.2] 
+INFO   [02:10:06.943] [main] i.d.j.HttpsConnectorFactory -  Supported cipher suites: [TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_RC4_128_SHA, TLS_ECDHE_RSA_WITH_RC4_128_SHA, SSL_RSA_WITH_RC4_128_SHA, TLS_ECDH_ECDSA_WITH_RC4_128_SHA, TLS_ECDH_RSA_WITH_RC4_128_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_RC4_128_MD5, TLS_EMPTY_RENEGOTIATION_INFO_SCSV, TLS_DH_anon_WITH_AES_128_GCM_SHA256, TLS_DH_anon_WITH_AES_128_CBC_SHA256, TLS_ECDH_anon_WITH_AES_128_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA, TLS_ECDH_anon_WITH_RC4_128_SHA, SSL_DH_anon_WITH_RC4_128_MD5, TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA, SSL_DH_anon_WITH_3DES_EDE_CBC_SHA, TLS_RSA_WITH_NULL_SHA256, TLS_ECDHE_ECDSA_WITH_NULL_SHA, TLS_ECDHE_RSA_WITH_NULL_SHA, SSL_RSA_WITH_NULL_SHA, TLS_ECDH_ECDSA_WITH_NULL_SHA, TLS_ECDH_RSA_WITH_NULL_SHA, TLS_ECDH_anon_WITH_NULL_SHA, SSL_RSA_WITH_NULL_MD5, SSL_RSA_WITH_DES_CBC_SHA, SSL_DHE_RSA_WITH_DES_CBC_SHA, SSL_DHE_DSS_WITH_DES_CBC_SHA, SSL_DH_anon_WITH_DES_CBC_SHA, SSL_RSA_EXPORT_WITH_RC4_40_MD5, SSL_DH_anon_EXPORT_WITH_RC4_40_MD5, SSL_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA, SSL_DH_anon_EXPORT_WITH_DES40_CBC_SHA, TLS_KRB5_WITH_RC4_128_SHA, TLS_KRB5_WITH_RC4_128_MD5, TLS_KRB5_WITH_3DES_EDE_CBC_SHA, TLS_KRB5_WITH_3DES_EDE_CBC_MD5, TLS_KRB5_WITH_DES_CBC_SHA, TLS_KRB5_WITH_DES_CBC_MD5, TLS_KRB5_EXPORT_WITH_RC4_40_SHA, TLS_KRB5_EXPORT_WITH_RC4_40_MD5, TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA, TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5] 
+INFO   [02:10:07.004] [main] o.e.j.s.SetUIDListener -  Opened application@3c3c4a71{SSL-HTTP/1.1}{0.0.0.0:9443} 
+INFO   [02:10:07.004] [main] o.e.j.s.SetUIDListener -  Opened admin@1352434e{SSL-HTTP/1.1}{0.0.0.0:9444} 
+INFO   [02:10:07.007] [main] o.e.j.s.Server -  jetty-9.2.z-SNAPSHOT 
+INFO   [02:10:07.800] [main] i.d.j.DropwizardResourceConfig -  The following paths were found for the configured resources:
+
+    GET     /operator (org.pachnanda.calculator.resources.ProtectedViewResource)
+    GET     /operator/display/{id} (org.pachnanda.calculator.resources.ProtectedViewResource)
+    GET     /calculate/add (org.pachnanda.calculator.resources.CalculationResource)
+    GET     /protected (org.pachnanda.calculator.resources.ProtectedResource)
+    GET     /filtered/hello (org.pachnanda.calculator.resources.FilteredResource)
+    GET     /views/iso88591.ftl (org.pachnanda.calculator.resources.ViewResource)
+    GET     /views/iso88591.mustache (org.pachnanda.calculator.resources.ViewResource)
+    GET     /views/utf8.ftl (org.pachnanda.calculator.resources.ViewResource)
+    GET     /views/utf8.mustache (org.pachnanda.calculator.resources.ViewResource)
+    GET     /calculation-result/all (org.pachnanda.calculator.resources.CalculationResultResource)
+    GET     /calculation-result/view_freemarker/{calculationResultId} (org.pachnanda.calculator.resources.CalculationResultResource)
+    GET     /calculation-result/view_mustache/{calculationResultId} (org.pachnanda.calculator.resources.CalculationResultResource)
+    GET     /calculation-result/{calculationResultId} (org.pachnanda.calculator.resources.CalculationResultResource)
+    POST    /calculation-result (org.pachnanda.calculator.resources.CalculationResultResource)
+ 
+INFO   [02:10:07.823] [main] o.e.j.s.h.ContextHandler -  Started i.d.j.MutableServletContextHandler@4c3de38e{/,null,AVAILABLE} 
+INFO   [02:10:07.836] [main] i.d.s.AdminEnvironment -  tasks = 
+
+    POST    /tasks/log-level (io.dropwizard.servlets.tasks.LogConfigurationTask)
+    POST    /tasks/gc (io.dropwizard.servlets.tasks.GarbageCollectionTask)
+ 
+INFO   [02:10:07.844] [main] o.e.j.s.h.ContextHandler -  Started i.d.j.MutableServletContextHandler@e3b0369{/,null,AVAILABLE} 
+INFO   [02:10:07.874] [main] o.e.j.s.ServerConnector -  Started application@3c3c4a71{SSL-HTTP/1.1}{0.0.0.0:9443} 
+INFO   [02:10:07.877] [main] o.e.j.s.ServerConnector -  Started admin@1352434e{SSL-HTTP/1.1}{0.0.0.0:9444} 
+INFO   [02:10:07.879] [main] o.e.j.s.Server -  Started @3783ms 
+INFO   [02:11:58.863] [Thread-14] o.e.j.s.ServerConnector -  Stopped application@3c3c4a71{SSL-HTTP/1.1}{0.0.0.0:9443} 
+INFO   [02:11:58.864] [Thread-14] o.e.j.s.ServerConnector -  Stopped admin@1352434e{SSL-HTTP/1.1}{0.0.0.0:9444} 
+INFO   [02:11:58.865] [Thread-14] o.e.j.s.h.ContextHandler -  Stopped i.d.j.MutableServletContextHandler@e3b0369{/,null,UNAVAILABLE} 
+INFO   [02:11:58.869] [Thread-14] o.e.j.s.h.ContextHandler -  Stopped i.d.j.MutableServletContextHandler@4c3de38e{/,null,UNAVAILABLE} 
+INFO   [02:12:01.666] [main] o.e.j.u.log -  Logging initialized @1626ms 
+INFO   [02:12:01.741] [main] i.d.a.AssetsBundle -  Registering AssetBundle with name: assets for path /assets/* 
+INFO   [02:12:01.856] [main] o.h.a.c.Version -  HCANN000001: Hibernate Commons Annotations {4.0.4.Final} 
+INFO   [02:12:01.861] [main] o.h.Version -  HHH000412: Hibernate Core {4.3.5.Final} 
+INFO   [02:12:01.863] [main] o.h.c.Environment -  HHH000206: hibernate.properties not found 
+INFO   [02:12:01.866] [main] o.h.c.Environment -  HHH000021: Bytecode provider name : javassist 
+INFO   [02:12:01.890] [main] i.d.h.SessionFactoryFactory -  Entity classes: [org.pachnanda.calculator.core.CalculationResult] 
+INFO   [02:12:02.335] [main] o.h.d.Dialect -  HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+INFO   [02:12:02.498] [main] o.h.e.t.i.TransactionFactoryInitiator -  HHH000399: Using default transaction strategy (direct JDBC transactions) 
+INFO   [02:12:02.502] [main] o.h.h.i.a.ASTQueryTranslatorFactory -  HHH000397: Using ASTQueryTranslatorFactory 
+INFO   [02:12:02.577] [main] o.h.t.BasicTypeRegistry -  HHH000270: Type registration [java.util.Currency] overrides previous : org.hibernate.type.CurrencyType@26722665 
+INFO   [02:12:03.243] [main] i.d.s.ServerFactory -  Starting calculator
+                           web-scale hello world dP for the web
+                                                 88
+  .d8888b. dP.  .dP .d8888b. 88d8b.d8b. 88d888b. 88 .d8888b.
+  88ooood8  `8bd8'  88'  `88 88'`88'`88 88'  `88 88 88ooood8
+  88.  ...  .d88b.  88.  .88 88  88  88 88.  .88 88 88.  ...
+  `88888P' dP'  `dP `88888P8 dP  dP  dP 88Y888P' dP `88888P'
+                                        88
+                                        dP
+ 
+INFO   [02:12:03.534] [main] i.d.j.HttpsConnectorFactory -  Supported protocols: [SSLv2Hello, SSLv3, TLSv1, TLSv1.1, TLSv1.2] 
+INFO   [02:12:03.534] [main] i.d.j.HttpsConnectorFactory -  Supported cipher suites: [TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_RC4_128_SHA, TLS_ECDHE_RSA_WITH_RC4_128_SHA, SSL_RSA_WITH_RC4_128_SHA, TLS_ECDH_ECDSA_WITH_RC4_128_SHA, TLS_ECDH_RSA_WITH_RC4_128_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_RC4_128_MD5, TLS_EMPTY_RENEGOTIATION_INFO_SCSV, TLS_DH_anon_WITH_AES_128_GCM_SHA256, TLS_DH_anon_WITH_AES_128_CBC_SHA256, TLS_ECDH_anon_WITH_AES_128_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA, TLS_ECDH_anon_WITH_RC4_128_SHA, SSL_DH_anon_WITH_RC4_128_MD5, TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA, SSL_DH_anon_WITH_3DES_EDE_CBC_SHA, TLS_RSA_WITH_NULL_SHA256, TLS_ECDHE_ECDSA_WITH_NULL_SHA, TLS_ECDHE_RSA_WITH_NULL_SHA, SSL_RSA_WITH_NULL_SHA, TLS_ECDH_ECDSA_WITH_NULL_SHA, TLS_ECDH_RSA_WITH_NULL_SHA, TLS_ECDH_anon_WITH_NULL_SHA, SSL_RSA_WITH_NULL_MD5, SSL_RSA_WITH_DES_CBC_SHA, SSL_DHE_RSA_WITH_DES_CBC_SHA, SSL_DHE_DSS_WITH_DES_CBC_SHA, SSL_DH_anon_WITH_DES_CBC_SHA, SSL_RSA_EXPORT_WITH_RC4_40_MD5, SSL_DH_anon_EXPORT_WITH_RC4_40_MD5, SSL_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA, SSL_DH_anon_EXPORT_WITH_DES40_CBC_SHA, TLS_KRB5_WITH_RC4_128_SHA, TLS_KRB5_WITH_RC4_128_MD5, TLS_KRB5_WITH_3DES_EDE_CBC_SHA, TLS_KRB5_WITH_3DES_EDE_CBC_MD5, TLS_KRB5_WITH_DES_CBC_SHA, TLS_KRB5_WITH_DES_CBC_MD5, TLS_KRB5_EXPORT_WITH_RC4_40_SHA, TLS_KRB5_EXPORT_WITH_RC4_40_MD5, TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA, TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5] 
+INFO   [02:12:03.588] [main] o.e.j.s.SetUIDListener -  Opened application@52f57666{SSL-HTTP/1.1}{0.0.0.0:9443} 
+INFO   [02:12:03.588] [main] o.e.j.s.SetUIDListener -  Opened admin@6e041285{SSL-HTTP/1.1}{0.0.0.0:9444} 
+INFO   [02:12:03.592] [main] o.e.j.s.Server -  jetty-9.2.z-SNAPSHOT 
+INFO   [02:12:04.479] [main] i.d.j.DropwizardResourceConfig -  The following paths were found for the configured resources:
+
+    GET     /protected (org.pachnanda.calculator.resources.ProtectedResource)
+    GET     /calculation-result/all (org.pachnanda.calculator.resources.CalculationResultResource)
+    GET     /calculation-result/view_freemarker/{calculationResultId} (org.pachnanda.calculator.resources.CalculationResultResource)
+    GET     /calculation-result/view_mustache/{calculationResultId} (org.pachnanda.calculator.resources.CalculationResultResource)
+    GET     /calculation-result/{calculationResultId} (org.pachnanda.calculator.resources.CalculationResultResource)
+    POST    /calculation-result (org.pachnanda.calculator.resources.CalculationResultResource)
+    GET     /filtered/hello (org.pachnanda.calculator.resources.FilteredResource)
+    GET     /operator (org.pachnanda.calculator.resources.ProtectedViewResource)
+    GET     /operator/display/{id} (org.pachnanda.calculator.resources.ProtectedViewResource)
+    GET     /calculate/add (org.pachnanda.calculator.resources.CalculationResource)
+    GET     /views/iso88591.ftl (org.pachnanda.calculator.resources.ViewResource)
+    GET     /views/iso88591.mustache (org.pachnanda.calculator.resources.ViewResource)
+    GET     /views/utf8.ftl (org.pachnanda.calculator.resources.ViewResource)
+    GET     /views/utf8.mustache (org.pachnanda.calculator.resources.ViewResource)
+ 
+INFO   [02:12:04.487] [main] o.e.j.s.h.ContextHandler -  Started i.d.j.MutableServletContextHandler@43f03c23{/,null,AVAILABLE} 
+INFO   [02:12:04.493] [main] i.d.s.AdminEnvironment -  tasks = 
+
+    POST    /tasks/log-level (io.dropwizard.servlets.tasks.LogConfigurationTask)
+    POST    /tasks/gc (io.dropwizard.servlets.tasks.GarbageCollectionTask)
+ 
+INFO   [02:12:04.497] [main] o.e.j.s.h.ContextHandler -  Started i.d.j.MutableServletContextHandler@1eb9a3ef{/,null,AVAILABLE} 
+INFO   [02:12:04.511] [main] o.e.j.s.ServerConnector -  Started application@52f57666{SSL-HTTP/1.1}{0.0.0.0:9443} 
+INFO   [02:12:04.515] [main] o.e.j.s.ServerConnector -  Started admin@6e041285{SSL-HTTP/1.1}{0.0.0.0:9444} 
+INFO   [02:12:04.517] [main] o.e.j.s.Server -  Started @4479ms 
+INFO   [02:19:19.084] [Thread-14] o.e.j.s.ServerConnector -  Stopped application@52f57666{SSL-HTTP/1.1}{0.0.0.0:9443} 
+INFO   [02:19:19.086] [Thread-14] o.e.j.s.ServerConnector -  Stopped admin@6e041285{SSL-HTTP/1.1}{0.0.0.0:9444} 
+INFO   [02:19:19.087] [Thread-14] o.e.j.s.h.ContextHandler -  Stopped i.d.j.MutableServletContextHandler@1eb9a3ef{/,null,UNAVAILABLE} 
+INFO   [02:19:19.094] [Thread-14] o.e.j.s.h.ContextHandler -  Stopped i.d.j.MutableServletContextHandler@43f03c23{/,null,UNAVAILABLE} 
+INFO   [02:19:21.728] [main] o.e.j.u.log -  Logging initialized @1764ms 
+INFO   [02:19:21.816] [main] i.d.a.AssetsBundle -  Registering AssetBundle with name: assets for path /assets/* 
+INFO   [02:19:22.073] [main] o.h.a.c.Version -  HCANN000001: Hibernate Commons Annotations {4.0.4.Final} 
+INFO   [02:19:22.121] [main] o.h.Version -  HHH000412: Hibernate Core {4.3.5.Final} 
+INFO   [02:19:22.123] [main] o.h.c.Environment -  HHH000206: hibernate.properties not found 
+INFO   [02:19:22.151] [main] o.h.c.Environment -  HHH000021: Bytecode provider name : javassist 
+INFO   [02:19:22.194] [main] i.d.h.SessionFactoryFactory -  Entity classes: [org.pachnanda.calculator.core.CalculationResult] 
+INFO   [02:19:22.801] [main] o.h.d.Dialect -  HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+INFO   [02:19:22.915] [main] o.h.e.t.i.TransactionFactoryInitiator -  HHH000399: Using default transaction strategy (direct JDBC transactions) 
+INFO   [02:19:22.918] [main] o.h.h.i.a.ASTQueryTranslatorFactory -  HHH000397: Using ASTQueryTranslatorFactory 
+INFO   [02:19:22.993] [main] o.h.t.BasicTypeRegistry -  HHH000270: Type registration [java.util.Currency] overrides previous : org.hibernate.type.CurrencyType@26a2f7f9 
+INFO   [02:19:23.353] [main] i.d.s.ServerFactory -  Starting calculator
+                           web-scale hello world dP for the web
+                                                 88
+  .d8888b. dP.  .dP .d8888b. 88d8b.d8b. 88d888b. 88 .d8888b.
+  88ooood8  `8bd8'  88'  `88 88'`88'`88 88'  `88 88 88ooood8
+  88.  ...  .d88b.  88.  .88 88  88  88 88.  .88 88 88.  ...
+  `88888P' dP'  `dP `88888P8 dP  dP  dP 88Y888P' dP `88888P'
+                                        88
+                                        dP
+ 
+INFO   [02:19:23.808] [main] i.d.j.HttpsConnectorFactory -  Supported protocols: [SSLv2Hello, SSLv3, TLSv1, TLSv1.1, TLSv1.2] 
+INFO   [02:19:23.809] [main] i.d.j.HttpsConnectorFactory -  Supported cipher suites: [TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_RC4_128_SHA, TLS_ECDHE_RSA_WITH_RC4_128_SHA, SSL_RSA_WITH_RC4_128_SHA, TLS_ECDH_ECDSA_WITH_RC4_128_SHA, TLS_ECDH_RSA_WITH_RC4_128_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_RC4_128_MD5, TLS_EMPTY_RENEGOTIATION_INFO_SCSV, TLS_DH_anon_WITH_AES_128_GCM_SHA256, TLS_DH_anon_WITH_AES_128_CBC_SHA256, TLS_ECDH_anon_WITH_AES_128_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA, TLS_ECDH_anon_WITH_RC4_128_SHA, SSL_DH_anon_WITH_RC4_128_MD5, TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA, SSL_DH_anon_WITH_3DES_EDE_CBC_SHA, TLS_RSA_WITH_NULL_SHA256, TLS_ECDHE_ECDSA_WITH_NULL_SHA, TLS_ECDHE_RSA_WITH_NULL_SHA, SSL_RSA_WITH_NULL_SHA, TLS_ECDH_ECDSA_WITH_NULL_SHA, TLS_ECDH_RSA_WITH_NULL_SHA, TLS_ECDH_anon_WITH_NULL_SHA, SSL_RSA_WITH_NULL_MD5, SSL_RSA_WITH_DES_CBC_SHA, SSL_DHE_RSA_WITH_DES_CBC_SHA, SSL_DHE_DSS_WITH_DES_CBC_SHA, SSL_DH_anon_WITH_DES_CBC_SHA, SSL_RSA_EXPORT_WITH_RC4_40_MD5, SSL_DH_anon_EXPORT_WITH_RC4_40_MD5, SSL_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA, SSL_DH_anon_EXPORT_WITH_DES40_CBC_SHA, TLS_KRB5_WITH_RC4_128_SHA, TLS_KRB5_WITH_RC4_128_MD5, TLS_KRB5_WITH_3DES_EDE_CBC_SHA, TLS_KRB5_WITH_3DES_EDE_CBC_MD5, TLS_KRB5_WITH_DES_CBC_SHA, TLS_KRB5_WITH_DES_CBC_MD5, TLS_KRB5_EXPORT_WITH_RC4_40_SHA, TLS_KRB5_EXPORT_WITH_RC4_40_MD5, TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA, TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5] 
+INFO   [02:19:23.859] [main] o.e.j.s.SetUIDListener -  Opened application@4f9a6c2d{SSL-HTTP/1.1}{0.0.0.0:9443} 
+INFO   [02:19:23.860] [main] o.e.j.s.SetUIDListener -  Opened admin@2b6fcb9f{SSL-HTTP/1.1}{0.0.0.0:9444} 
+INFO   [02:19:23.862] [main] o.e.j.s.Server -  jetty-9.2.z-SNAPSHOT 
+INFO   [02:19:24.777] [main] i.d.j.DropwizardResourceConfig -  The following paths were found for the configured resources:
+
+    GET     /calculation-result/all (org.pachnanda.calculator.resources.CalculationResultResource)
+    GET     /calculation-result/view_freemarker/{calculationResultId} (org.pachnanda.calculator.resources.CalculationResultResource)
+    GET     /calculation-result/view_mustache/{calculationResultId} (org.pachnanda.calculator.resources.CalculationResultResource)
+    GET     /calculation-result/{calculationResultId} (org.pachnanda.calculator.resources.CalculationResultResource)
+    POST    /calculation-result (org.pachnanda.calculator.resources.CalculationResultResource)
+    GET     /protected (org.pachnanda.calculator.resources.ProtectedResource)
+    GET     /calculate/add (org.pachnanda.calculator.resources.CalculationResource)
+    GET     /views/iso88591.ftl (org.pachnanda.calculator.resources.ViewResource)
+    GET     /views/iso88591.mustache (org.pachnanda.calculator.resources.ViewResource)
+    GET     /views/utf8.ftl (org.pachnanda.calculator.resources.ViewResource)
+    GET     /views/utf8.mustache (org.pachnanda.calculator.resources.ViewResource)
+    GET     /operator (org.pachnanda.calculator.resources.ProtectedViewResource)
+    GET     /operator/display/{id} (org.pachnanda.calculator.resources.ProtectedViewResource)
+    GET     /filtered/hello (org.pachnanda.calculator.resources.FilteredResource)
+ 
+INFO   [02:19:24.785] [main] o.e.j.s.h.ContextHandler -  Started i.d.j.MutableServletContextHandler@1f9d4b0e{/,null,AVAILABLE} 
+INFO   [02:19:24.794] [main] i.d.s.AdminEnvironment -  tasks = 
+
+    POST    /tasks/log-level (io.dropwizard.servlets.tasks.LogConfigurationTask)
+    POST    /tasks/gc (io.dropwizard.servlets.tasks.GarbageCollectionTask)
+ 
+INFO   [02:19:24.800] [main] o.e.j.s.h.ContextHandler -  Started i.d.j.MutableServletContextHandler@72443081{/,null,AVAILABLE} 
+INFO   [02:19:24.820] [main] o.e.j.s.ServerConnector -  Started application@4f9a6c2d{SSL-HTTP/1.1}{0.0.0.0:9443} 
+INFO   [02:19:24.824] [main] o.e.j.s.ServerConnector -  Started admin@2b6fcb9f{SSL-HTTP/1.1}{0.0.0.0:9444} 
+INFO   [02:19:24.825] [main] o.e.j.s.Server -  Started @4862ms 
